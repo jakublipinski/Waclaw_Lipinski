@@ -42,7 +42,8 @@
 			<div id="blockMenu">												<!-- Start Menu -->
 			
 				<ul>
-					<li><a href="/" <%= Request.Path=="/Default.aspx"?"class=\"active\"":""%>>Strona główna</a></li>
+				    {{ page.url }}
+					<li><a href="/" <% if page.url=="/Default.aspx"?"class=\"active\"":""%>>Strona główna</a></li>
                     <li><a href="Biografia" <%= Request.Path=="/Biografia.aspx"?"class=\"active\"":""%>>Biografia</a></li>
 					<li><a href="Galeria" <%= Request.Path=="/Galeria.aspx"?"class=\"active\"":""%>>Galeria zdjęć</a></li>
 					<li><a href="Nagrania_radiowe" <%= Request.Path=="/Nagrania_radiowe.aspx"?"class=\"active\"":""%>>Nagrania radiowe</a></li>
