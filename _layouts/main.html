@@ -1,10 +1,8 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head id="Head2" runat="server">
-    <asp:ContentPlaceHolder id="head" runat="server">
-    </asp:ContentPlaceHolder>
+    {{ page.head }}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="" />
     <title>Wacław Lipiński</title>
@@ -76,12 +74,12 @@
 				<div id="blockHeader">											<!-- Start Header -->
 
 					<div class="headerText">
-					<% switch(new Random().Next(3)){ %>
-					<% case 0: %>
+					<!-- switch(new Random().Next(3)){ %>
+					<% case 0: %-->
 						<p><i>Chwała tym, którzy wyznaczyli sobie W życiu swym</i></p>
 						<p><i>Termopile i ich bronią. Od obowiązku nie odstępują nigdy</i></p>
 						<p>Konstandinos Kawafis, Termopile</p>
-					<% break;case 1: %>
+					<!-- break;case 1: %>
 					    <p><i>Wojna! [...] Do obiadu spakowałem wszystko - plecak,</i></p>
 					    <p><i>kompas, bieliznę, drobiazgi konieczne w polu</i></p>
                         <p>Wacław Lipiński, Dziennik</p>
@@ -90,15 +88,13 @@
 					    <p><i>komunistyczną w wojnie 1919-20 r., walczył z Niemcami w 1939 r. - </i></p>
 					    <p><i>a zabili go Polacy. Jeden z dramatów życia mojego pokolenia.</i></p>
                         <p>W. Jędrzejewicz, Śmierć ppłk. dr. Wacława Lipińskiego</p>
-					<% break; } %>
+					<% break; } -->
 					</div>
 
 				</div>															<!-- End Header -->
 
 				<div id="blockContent">												<!-- Start Content Block -->
-
-                    <asp:ContentPlaceHolder id="body" runat="server">
-                    </asp:ContentPlaceHolder>
+                    {{ content }}
 					
 				</div>																<!-- End Content Block -->
 				
