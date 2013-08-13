@@ -1,0 +1,140 @@
+#mapa {
+	margin-top: 70px;
+	margin-left: 20px;
+	width: 540px;
+	height: 247px;
+	background: transparent url(images/mapa/mapa.png) no-repeat;
+}
+
+#mapaWojna {
+	position: relative;
+	left: 310px;
+	top: 0px;
+	width: 163px;
+}
+
+#mapaWojna a {
+	width: 163px;
+	height: 38px;
+	background: transparent url(images/mapa/wojna.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaWojna a:hover {
+	background: transparent url(images/mapa/wojnaHover.png) no-repeat;
+}
+
+#mapaKonsp {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 172px;
+}
+
+#mapaKonsp a {
+	width: 172px;
+	height: 38px;
+	background: transparent url(images/mapa/konsp.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaKonsp a:hover {
+	background: transparent url(images/mapa/konspHover.png) no-repeat;
+}
+
+#mapaWrzesniowa {
+	position: relative;
+	left: 145px;
+	top: 20px;
+	width: 189px;
+}
+
+#mapaWrzesniowa a {
+	width: 189px;
+	height: 38px;
+	background: transparent url(images/mapa/wrzesniowa.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaWrzesniowa a:hover {
+	background: transparent url(images/mapa/wrzesniowaHover.png) no-repeat;
+}
+
+
+#mapaDziecinstwo {
+	position: relative;
+	left: 85px;
+	top: 25px;
+	width: 139px;
+}
+
+#mapaDziecinstwo a {
+	width: 139px;
+	height: 38px;
+	background: transparent url(images/mapa/dziecinstwo.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaDziecinstwo a:hover {
+	background: transparent url(images/mapa/dziecinstwoHover.png) no-repeat;
+}
+
+#mapaOrlat {
+	position: relative;
+	left: 390px;
+	top: 20px;
+	width: 146px;
+}
+
+#mapaOrlat a {
+	width: 146px;
+	height: 38px;
+	background: transparent url(images/mapa/orlat.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaOrlat a:hover {
+	background: transparent url(images/mapa/orlatHover.png) no-repeat;
+}
+
+#mapaSzlakiem {
+	position: relative;
+	left: 210px;
+	top: 30px;
+	width: 170px;
+}
+
+#mapaSzlakiem a {
+	width: 170px;
+	height: 38px;
+	background: transparent url(images/mapa/szlakiem.png) no-repeat;
+	margin:0px;
+	padding: 0;
+	display:block;
+	text-indent:-9999px;
+	outline-style: none;
+}
+
+#mapaSzlakiem a:hover {
+	background: transparent url(images/mapa/szlakiemHover.png) no-repeat;
+}

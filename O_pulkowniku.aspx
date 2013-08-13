@@ -1,0 +1,42 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="Default.master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="head">
+    <title>Wacław Lipiński: O pułkowniku</title>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+
+<h3>O pułkowniku</h3>
+
+<h2>Kawaler Virtuti Militari</h2>
+
+<div class="floatBlock">
+<div class="floatImage">
+	<a class="lightbox" href="photos/legitymacja_str_1.jpg" title="Telegram"><img class="instant ishadow itiltright icolorEFEADB" src="photos/legitymacja_str_1thumb.jpg"></a>
+</div>
+<div>
+<p>Dnia 7 lipca 1916 kpt Lipiński Wacław, wówczas sierżant 5. pp L.P., podczas odwrotu I Brygady sprzed Kostiuchnówki w niezwykle ciężkich warunkach dał  dowody zimnej krwi i osobistego męstwa – czytamy we wniosku na odznaczenie Lipińskiego orderem Virtuti Militari. Gdy maszerujący na czele kolumny I Brygady 5. pp L.P. wpadł w zasadzkę, podczas której został ciężko ranny pułk. Berbecki [Leon Berbecki] i zabity mjr Wyrwa [Tadeusz Wyrwa-Furgalski, dowódca 2. batalionu 5. pp] i w celu wydobycia się z matni zaczął szybko wycofywać się, sierż. Lipiński pozostał z kilku żołnierzami celem zabrania ciężko rannego dowódcy pułku, pułk. Berbeckiego, co też w zupełności, choć już pod silnym ogniem, udało się. </p>
+<small>Centralne Archiwum Wojskowe, Wacław Lipiński, VM–37–2869, Wniosek odznaczeniowy z 20 października 1921.</small>
+</div>
+</div>
+
+<h2>Krzyż Walecznych</h2>
+
+<div class="floatBlock">
+<div>
+<p>W czasie akcji na Zalesie dnia 28 maja 1919 ppor. Lipiński Wacław prowadząc 9-tą  kompanię 5. pp Leg. do ataku na wieś Szutowicze, która była kluczem pozycji bolszewickich – czytamy we wniosku na odznaczenie Krzyżem Walecznych – cichym, a sprawnym podsunięciem kompanii pod wieś, a następnie brawurowym atakiem zdobywszy ją, świecił przykładem męstwa, będąc zawsze tam, gdzie potrzeba chwili tego najlepiej wymagała. Bezpośrednio po zdobyciu Szutowicz kontynuuje dalej atak w kierunku na wieś Sukniewicze, łamiąc dwukrotnie usiłowanie nieprzyjaciela przeprowadzenia kontrataku i odzyskania z powrotem Szutowicz, przyczym bierze 48 jeńców, 3 km-y i wiele sprzętów taborowych</p>
+<small>CAW, Wacław Lipiński, KW-68, Wniosek odznaczeniowy z 28 stycznia 1921.</small>
+</div>
+</div>
+
+<h2>Warszawa - Wrzesień 1939</h2>
+
+<div class="floatBlock">
+<div>
+<p>Bieg wypadków tchnął weń rychło nowy prąd życia. Niedługo po przybyciu na ulicę Pierackiego zostałem mianowany kierownikiem sekcji propagandy Obywatelskiego Komitetu Pomocy Ludności Warszawy. Szeroko zakrojona organizacja, zawiązek późniejszego Stołecznego Komitetu Pomocy i Rady Głównej Opiekuńczej, była równie nieświadoma rzeczy, gdy chodzi o ścisły program jej działania, jak zawalona doraźnymi zadaniami, które dyktował chaos wędrówki ludności, ogień i głód. Główne zadania sekcji, jak redagowanie odezw do ludności i biuletynów wewnętrznych, ustępują też rychło zagadnieniu pomocy dla wszelkiego rodzaju wysiedleńców z inteligencji kulturalnej, którzy, pociągnięci znaną im siedzibą pisarzy, tu właśnie szukali rady i schronienia. Nawiązany kontakt z pułkownikiem Wacławem Lipińskim, który gromadził dokumenty chwili, obciążył sekcję opieką nad fotografami, dziennikarzami, filmowcami, miotającymi się od szańców do zawalonych szpitali czy płonącego Zamku, i stworzył dodatkowy łańcuch trosk</p>
+<small>Ferdynand Goetel, Czasy wojny, oprac. Marek Gałęzowski, Kraków 2005, s. 19-20.</small>
+</div>
+</div>
+
+
+</asp:Content>

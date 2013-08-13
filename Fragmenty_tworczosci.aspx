@@ -1,0 +1,51 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="Default.master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="head">
+    <title>Wacław Lipiński: Fragmenty twórczości</title>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+
+<h3>Fragmenty twórczości</h3>
+
+<h2>W przededniu niepodległości</h2>
+
+<div class="floatBlock">
+<div>
+<p>1 IV 1917 Ostrów Komorowo. Przeczekaliśmy Rosję, przeczekamy i Niemców [...]. Naród się dawno już ocknął, krew nasza nie poszła na darmo, nad Państwem Polskim nie można już przejść dziś do porządku dziennego. Z Rosją rachunek skończony, nie ulega wątpliwości, że wkrótce na froncie zachodnim wystawią rachunek i Niemcom. Austria już leży i nie pomoże jej nic, a niemiaszki same nie dadzą rady. I trzasną, jak trzasnęła Rosja, a wówczas przyjdzie dzień, w którym my zabierzemy głos [...]. A wówczas jak w pieśni naszej strzeleckiej po tylekroć nuconej w okopach, w siwych mgłach wieczornych, wśród mogił, krzyży i unoszącej się ciągle śmierci – jak w pieśni naszej ziści się sen: z trudu naszego i znoju Polska powstanie by żyć.</p>
+<small>Szlakiem I Brygady, s. 595</small>
+</div>
+</div>
+
+<h2>Lwów wolny</h2>
+
+<div class="floatBlock">
+<div>
+<p>Maszerujemy kolumną przez ulicę św. Zofii ku ulicy Zyblikiewicza. Okopki ukraińskie puste, porzucone skrzynki z amunicją, aparaty telefoniczne, karabiny – świadczą o nagłym, pośpiesznym odwrocie. Za chwilę wśród cichych, głuchych kamienic, wśród pustych, bezdusznych ulic buchnął radosny nasz śpiew - >>Hej! strzelcy wraz, nad nami Orzeł Biały<< [...]. Z domów wypadają ludzie pijani od szczęścia, na wpół ubrani, nieprzytomni.</p>
+<small>W. Lipiński, Wśród lwowskich orląt, s. 79</small>
+</div>
+</div>
+
+<h2>Gdzie twe sokoły, komendancie</h2>
+
+<div class="floatBlock">
+<div>
+<p>Gdybyście mogli doczekać, towarzysze broni, którzyście 
+padli na polach bitew, w krwawym, ostatnim dla was boju (...) powstalibyście teraz wszyscy ze swych zaklęsłych, opuszczonych grobów, spod białych, brzozowych krzyży żołnierskich i nie bacząc na swe okrutne, śmiertelne rany, raz jeszcze poszlibyście na zwycięski bój.</p>
+<p><a href="Gdzie_twe_sokoly_komendancie">Przeczytaj cały rodział</a></p>
+<small>W. Lipiński, Wśród lwowskich orląt, s. 80</small>
+</div>
+</div>
+
+
+<h2>Warszawa będzie broniona</h2>
+
+<div class="floatBlock">
+<div>
+<p>Rozkaz gen. Czumy, dowódcy obrony Warszawy oznacza, że Warszawa będzie broniona do ostatniego tchu. Jeśli padnie, świadczyć to będzie, iż po ostatnim żołnierzu polskim przejechał czołg niemiecki. Obywatele stolicy winni od tej chwili poświęcić całą swą energię, by ułatwić zadanie walczącemu wojsku. Nikt nie powinien ruszać się z miejsca, gdzie go obrona stolicy zastanie. Opuszczenie Warszawy w takiej chwili będzie uważane za tchórzostwo. Warszawa znalazła się na pierwszej linii obronnej i winna być dumna, że tak zaszczytny los jej wypadł</p>
+<small>Komentarz radiowy ppłk Wacława Lipińskiego do rozkazu dowódcy obrony Warszawy gen. Waleriana Czumy, 8 września 1939 r.</small>
+</div>
+</div>
+
+
+</asp:Content>

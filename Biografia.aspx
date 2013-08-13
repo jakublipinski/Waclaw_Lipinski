@@ -1,0 +1,280 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="Default.master" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="head">
+    <title>Wacław Lipiński: Biografia</title>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="body">
+
+<h3>Wacław Lipiński</h3>
+
+<a name="p1"></a>
+<h2>Dzieciństwo, skauting, obrona Lwowa i wojna z bolszewikami</h2>
+
+<div class="floatBlock">
+<div class="floatImage">
+	<a class="lightbox" href="photos/lipinski5.jpg" title="W ziemiance nad Stochodem, 1915"><img class="instant ishadow itiltright icolorEFEADB" src="photos/lipinski5Thumb.jpg"></a>
+</div>
+<div>
+
+<p>Urodził się 28 września 1896 r. w Łodzi. W ruchu niepodległościowym działał 
+już jako uczeń gimnazjum, należał do założycieli łódzkiego skautingu, 
+był członkiem Polskich Drużyn Strzeleckich. Od października 1914 
+r. służył w 5. pp I Brygady Legionów Polskich, z którym przeszedł 
+cały szlak bojowy I Brygady. Walczył pod Łowczówkiem, Konarami, 
+Kostiuchnówką. Uniknąwszy internowania po kryzysie przysięgowym 
+w lipcu 1917 r., znalazł się w Krakowie, działał w POW. Brał udział 
+w obronie Lwowa. Wraz z innymi akademikami otrzymał specjalne podziękowanie 
+od komendanta miasta kpt. Czesława Mączyńskiego. W dalszych walkach 
+pod Lwowem, w lutym 1919 r. został ranny pod Krzywczycami. Po wyleczeniu, 
+awansowany do stopnia podporucznika, uczestniczył w wojnie z bolszewikami. 
+Za walkę o niepodległość Polski został odznaczony Krzyżem Virtuti 
+Militari V kl., Krzyżem Niepodległości, Krzyżem Walecznych (czterokrotnie).</p>
+</div>
+</div>
+
+<h2>Studia i praca naukowo-publiczna</h2>
+
+<div class="floatBlock">
+<div>
+<p>Po wojnie ukończył studia na Wydziale Prawa UJ. Aktywny na wielu polach, 
+zajmował m.in. stanowiska referenta oświatowego Obszaru Warownego 
+Kraków i Wojskowego Więzienia Śledczego. Otrzymywał bardzo dobre 
+oceny od swoich przełożonych. W 1927 r. został awansowany do stopnia 
+majora i przeniesiony do Warszawy, gdzie rozpoczął pracę w instytucjach 
+naukowych związanych z obozem piłsudczykowsko-sanacyjnym. Objął 
+kierownictwo działu polskich formacji zbrojnych lat I wojny światowej 
+w Wojskowym Biurze Historycznym, z zadaniem zorganizowania badań nad 
+historią polskiego czynu zbrojnego przed I wojną i w czasie jej trwania. 
+Później został skarbnikiem Instytutu Badania Najnowszej Historii 
+Polski i członkiem jego Zarządu, następnie sekretarzem wydawanej 
+przez Instytut „Niepodległości”, a w 1934 r. – sekretarzem generalnym 
+tej placówki.</p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div class="floatImage">
+	<a class="lightbox" href="photos/okladka_na_przedpolu_historii.jpg" title="Na przedpolu historji. Okładka"><img class="instant ishadow itiltleft icolorEFEADB" src="photos/okladka_na_przedpolu_historiithumb.jpg"></a>
+</div>
+<div>
+<p>Stał się jednym z prekursorów badań najnowszej historii Polski. Opublikował 
+wiele prac historycznych, poświęconych zmaganiom o niepodległość 
+i granice Rzeczypospolitej, wśród których najcenniejszą była <i>
+Walka zbrojna o niepodległość Polski w latach 1905-1918</i>. Po przekształceniu 
+IBNHP w Instytut Józefa Piłsudskiego, objął stanowisko jego dyrektora. 
+Był faktycznym organizatorem pracy naukowej Instytutu. Powołał w 
+Instytucie zespół historyków, opracowujących poszczególne zagadnienia 
+z najnowszych dziejów Polski. Byli wśród nich m.in. Henryk Wereszycki 
+i Tadeusz Pelczarski. Przyczynił się do publikacji wielu cennych pozycji, 
+w tym drugiego wydania <i>Pism–Mów–Rozkazów</i> marsz. Piłsudskiego. 
+Za zasługi na polu wydawniczym uhonorowano go Srebrnym Wawrzynem Akademickim 
+i dwukrotnie Złotym Krzyżem Zasługi. W 1937 r. otrzymał habilitację 
+i docenturę na Uniwersytecie im. Jana Kazimierza we Lwowie.</p>
+</div>
+</div>
+
+<a name="p2"></a>
+
+<h2>Wrzesień 1939</h2>
+
+<div class="floatBlock">
+<div>
+<p>W styczniu 1939 r. został awansowany do stopnia podpułkownika i przeniesiony 
+w stan spoczynku. Nie trwał on długo. Po wybuchu wojny, na własne 
+życzenie Lipiński pozostał w Warszawie i objął stanowisko szefa 
+propagandy Dowództwa Obrony Warszawy. Aktywny na wielu odcinkach walki, 
+przez cały okres obrony stolicy pełnił swoją służbę z największym 
+poświęceniem, czego świadectwo stanowi szczegółowy dziennik, prowadzony 
+podczas oblężenia miasta (wyjątkowo cenne źródło do dziejów warszawskiego 
+września, opublikowane dopiero w 1989 r.), oraz relacje współczesnych.</p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p>Jego nazwisko zestawiano wówczas często z nazwiskiem prezydenta Stefana 
+Starzyńskiego, z którym blisko współpracował. Podobnie jak on, 
+codziennie przemawiał przez radio do mieszkańców stolicy i broniących 
+jej żołnierzy, oddziaływał na nastroje w duchu utrzymania woli walki, 
+bez względu na komplikującą się sytuację ogólną. Należał do 
+zdecydowanych zwolenników obrony stolicy. 7 września 1939 r. mówił 
+przez radio: <i>Warszawa będzie broniona do ostatniego tchu. Jeśli 
+padnie, świadczyć to będzie, iż po ostatnim żołnierzu polskim 
+przejechał czołg niemiecki. Obywatele stolicy winni od tej chwili 
+poświęcić całą swą energię, by ułatwić zadanie walczącemu 
+wojsku (...). Nikt nie powinien ruszać się z miejsca, gdzie go obrona 
+stolicy zastanie. Opuszczenie Warszawy w takiej chwili będzie uważane 
+za tchórzostwo</i>. Później przeciwstawiał się tendencjom kapitulacyjnym 
+w sztabie Armii „Warszawa”.</p>
+</div>
+</div>
+
+<h2>Pobyt na Węgrzech</h2>
+
+<div class="floatBlock">
+<div>
+<p>Jeszcze w oblężonej Warszawie, wraz z gen. Michałem Tokarzewskim-Karaszewiczem, 
+Mieczysławem Niedziałkowskim i Stefanem Starzyńskim, był inicjatorem 
+powołania organizacji konspiracyjnej, kontynuującej walkę z okupantami. 
+Po kapitulacji pozostał w stolicy na piastowanym przed wojną stanowisku 
+dyrektora Instytutu Józefa Piłsudskiego, ale w końcu listopada 1939 
+r., zagrożony aresztowaniem przez gestapo, opuścił Warszawę i udał 
+się do Zakopanego. Utrzymywał kontakty z SZP, kilkakrotnie przyjeżdżał 
+do Warszawy. W marcu 1940 r. przedostał się na Węgry z zamiarem udania 
+się do Francji i wstąpienia do armii polskiej. Jako piłsudczyk, nie 
+otrzymał przydziału służbowego i pozostał przymusowo na Węgrzech, 
+gdzie włączył się w życie polskiego uchodźstwa. Pisał o tym z 
+goryczą do gen. Stefana Roweckiego: <i>Jakim prawem Sikorski nas, którzyśmy 
+się bili, odsuwa od pracy dla kraju, jakim prawem moralnie nas chce 
+zniszczyć i traktować jak zbrodniarzy, którzy nie mają prawa walczyć 
+o Polskę</i>.</p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div class="floatImage">
+	<a class="lightbox" href="photos/w_gorach.jpg" title=""><img class="instant ishadow itiltleft icolorEFEADB" src="photos/w_gorachthumb.jpg"></a>
+</div>
+<div>
+<p>W Budapeszcie Lipiński publicznie zwalczał pogląd o odpowiedzialności 
+piłsudczyków za wrześniową przegraną. Jednym z elementów tej działalności 
+stała się napisana przez niego broszura <i>Wojna polsko-niemiecka. 
+Kampania wrześniowa w Polsce w r. 1939</i>. Wkrótce znalazł się 
+wśród przywódców piłsudczykowskich na Węgrzech, jednak wobec sporu 
+ideowego z kierującym Obozem Polski Walczącej Julianem Piaseckim, 
+ostatecznie nie znalazł się w jego składzie. Wiosną 1942 r. wrócił 
+do kraju i związał się z grupą piłsudczyków skupionych wokół 
+pisma „Myśl Państwowa”, później został jego redaktorem. Współtworzył 
+następnie Konwent Organizacji Niepodległościowych, wszedł w skład 
+Wydziału Politycznego ZG KON, najprawdopodobniej był również twórcą 
+nazwy tego ugrupowania. </p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p>Należał do głównych przedstawicieli myśli politycznej piłsudczyków w latach 
+wojny. Swoim poglądom dawał wyraz w pismach KON i broszurach: <i>Pakt 
+polsko-rosyjski</i>, <i>Polityka Piłsudskiego i Becka</i> oraz <i>Bilans 
+czterolecia</i>, uzasadniając konieczność walki z Niemcami i ostrzegając 
+przed zagrożeniem Polski ze strony ZSRS. 23 lutego 1944 r. został 
+aresztowany przez gestapo. Zwolniony po 3 miesiącach, najprawdopodobniej 
+ze względu na antysowieckie stanowisko KON, czego dowodziły znalezione 
+przy nim listy do delegata rządu i dowódcy AK, do pracy w podziemiu, 
+ze względu na dekonspirację, już nie wrócił. Wybuch Powstania Warszawskiego 
+zaskoczył go w majątku Jastrzębiec pod Grodziskiem. Jesienią 1944 
+r. przebywał w Zakopanem i w Krakowie, gdzie napisał list do Prezydenta 
+RP Władysława Raczkiewicza, omawiający sytuację polityczną Polski 
+po klęsce Powstania Warszawskiego i stanowiący swoisty epilog jego 
+publicystyki politycznej czasów wojny.</p>
+</div>
+</div>
+
+<a name="p3"></a>
+
+<h2>Działalność powojenna</h2>
+
+<div class="floatBlock">
+<div>
+<p>Pod koniec czerwca 1945 r. przedstawił szefowi BIP Delegatury Sił Zbrojnych 
+na Kraj Kazimierzowi Moczarskiemu projekt stworzenia Centralnego Komitetu 
+Narodowego skupiającego przedstawicieli poszczególnych ugrupowań 
+podziemia niepodległościowego. Projekt ten nie został jednak przez 
+DSZ podjęty i dopiero prześladowania podziemia przez komunistów uczyniły 
+go aktualnym kilka miesięcy później. Mimo to Lipiński nie zaniechał 
+rozszerzania kontaktów politycznych. W lipcu 1945 r. poznał w Warszawie 
+Włodzimierza Marszewskiego, członka ZG SN i jednego z najczynniejszych 
+powojennych działaczy ruchu narodowego. Podczas rozmowy o aktualnej 
+sytuacji politycznej Marszewski wyraził chęć wymiany poglądów również 
+z innymi ważniejszymi działaczami piłsudczykowskimi. Do rozmów doszło 
+w sierpniu 1945 r. w Krakowie.</p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p>Jesienią 1945 r. Lipiński rozpoczął ścisłą współpracę z Marszewskim, 
+doprowadzając w marcu 1946 r., w porozumieniu ze Zrzeszeniem Wolność 
+i Niezawisłość, do powołania porozumienia organizacji podziemnych, 
+które we wrześniu tego roku nazwano Komitetem Porozumiewawczym Organizacji 
+Demokratycznych Polski Podziemnej. Lipiński był autorem pierwszej 
+wersji Memoriału do Rady Bezpieczeństwa ONZ (rozszerzonego później 
+o poprawki innych działaczy podziemia), w którym wykazał całkowite 
+uzależnienie Polski od ZSRS, informował zachodnią opinię publiczną 
+o łamaniu umów międzynarodowych przez TRJN, domagał się interwencji 
+dyplomatycznej i międzynarodowej kontroli wyborów do Sejmu oraz umożliwienia 
+startu w nich wszystkim siłom politycznym w kraju. </p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p>W marcu 1946 r. powołał Stronnictwo Niezawisłości Narodowej, które 
+jako organizację piłsudczykowską reprezentował w Komitecie, wydawał 
+pismo konspiracyjne „Głos Opozycji”. <i>Nasza grupa ze starych 
+niezmordowanych koni złożona uległa kompletnemu prawie rozbiciu [...]. 
+Zostałem sam prawie na placu, ale postanowiłem do końca wytrwać 
+– jakkolwiek jest niezmiernie ciężko, bo to przecież siódmy rok 
+tej nieprzerwanej walki</i> – pisał do Henryka Floyara-Rajchmana 17 
+kwietnia 1946 r. Mimo to decydowanie opowiadał się za kontynuowaniem 
+walki o niepodległość niezależnie od rozwoju sytuacji międzynarodowej, 
+nawet w wypadku włączenia Polski do ZSRS. </p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p>Swoje poglądy opierał na wierze w nieuchronny konflikt między ZSRS a demokracjami 
+Zachodu, który zakończyłby się korzystnym rozstrzygnięciem sprawy 
+polskiej. W czerwcu 1946 r. wezwał do bojkotu referendum. Uważał, 
+że zostało ono narzucone społeczeństwu przez <i>quislingowski rząd 
+agentury moskiewskiej w czasie, gdy więzienia i obozy koncentracyjne 
+pełne są naszych najbliższych</i>, wobec czego <i>nie czas na komedię 
+głosowania, które zresztą nie będzie mieć żadnego znaczenia, dopóki 
+na ziemiach naszych panuje zbrojna przemoc Moskwy</i>. Planowany sposób 
+przeprowadzenia głosowania porównywał do „wyborów” w ZSRS i 
+województwach polskich, zajętych przez to państwo po 17 września 
+1939 r. Opowiadał się również za bojkotem wyborów do Sejmu Ustawodawczego, 
+przewidując, że zostaną one sfałszowane. W pierwszych dniach stycznia 
+1947 r. napisał list do Stanisława Mikołajczyka, zawierający wezwanie 
+do bojkotu.</p>
+</div>
+</div>
+
+<h2>Aresztowanie i śmierć</h2>
+
+<div class="floatBlock">
+<div class="floatImage">
+	<a class="lightbox" href="photos/telegram.jpg" title="Telegram"><img class="instant ishadow itiltright icolorEFEADB" src="photos/telegramthumb.jpg"></a>
+</div>
+<div>
+<p>7 stycznia 1947 r. został aresztowany przez funkcjonariuszy MBP. Sądzony 
+w procesie KPODPP i III ZG WiN w grudniu 1947 r. w Warszawie, zachował 
+postawę bohaterską i bezkompromisową, „jako Polak, jako obywatel 
+i jako człowiek” nie przyznał się do winy. Został skazany na karę 
+śmierci, zamienioną następnie na dożywotnie więzienie. Przebywał 
+w więzieniu mokotowskim, a później we Wronkach, gdzie zmarł w niewyjaśnionych 
+do dziś okolicznościach 4 kwietnia 1949 r., najprawdopodobniej zamordowany 
+na polecenie władz komunistycznych.</p>
+</div>
+</div>
+
+<div class="floatBlock">
+<div>
+<p><i>W moim głębokim przekonaniu Wacław Lipiński winien przejść do historii polskiej jako bohater narodowy. 
+Jego postawa na procesie była unikatem za żelazną kurtyną. Nikt 
+nie zdobył się na taką postawę. Jeden tylko pułkownik Lipiński. 
+Ten fakt wystarczy na wyniesienie go na cokół historycznego pomnika 
+[...]. Jego walka, jego ostatnie pole działania, to nie było właściwie 
+żadne pole, to było trzęsawisko po pas, krepujące ruchy prowokacje, 
+zdrady, oszczerstwa, podłości poprzez które usiłował przerzucić 
+kładkę wolnej myśli ku wolnej Polsce. Wysiłek absolutnie nadludzki</i>
+(Józef Mackiewicz, <i>Spotkanie z Lipińskim</i>, „Lwów i Wilno” 
+1947, nr 116.).</p>
+</div>
+</div>
+<div style="text-align:right"><b>Marek Gałęzowski</b></div>
+
+
+</asp:Content>

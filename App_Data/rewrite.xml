@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewrites>
+  <host name="www.waclawlipinski.pl"></host>
+
+  <add targetUrl="^/$" destinationUrl="/Default.aspx" />
+  <add targetUrl="^/(Prace_pulkownika|Pamiec|Nagrania_radiowe|Biografia|O_pulkowniku|Fragmenty_tworczosci|Gdzie_twe_sokoly_komendancie|Bibliografia|Publikacje|O_stronie|Galeria|English)$" destinationUrl="/$1.aspx" />
+
+</rewrites>

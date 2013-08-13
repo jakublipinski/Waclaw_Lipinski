@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head2" runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="" />
+    <title>Wacław Lipiński</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script type="text/javascript" src="js/iepngfix_tilebg.js"></script>
+    <link rel="stylesheet" type="text/css" href="lightbox.css" media="screen" />
+    <script type="text/javascript" src="js/instant.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            $('a.lightbox').lightBox({ txtImage: 'Zdjęcie', txtOf: 'z' }); // Select all links with lightbox class
+        });
+	</script>      
+    
+    <style>
+ 	   #waclaw {
+			width: 367px;
+			height: 448px;
+			background: transparent url(images/waclaw.png) no-repeat;
+			position: absolute;
+			z-index: <%= Request.Path=="/Default.aspx"?"150":"50" %>; /* Na stronie głównej ma 150, na podstronach 50 */
+			margin-left: 590px;
+			}
+    </style>
+    
+</head>
+
+<body>
+
+	<div id="container">
+	
+			<div id="waclaw"></div>
+
+			<div id="blockMenu">												<!-- Start Menu -->
+			
+				<ul>
+					<li><a href="/" <%= Request.Path=="/Default.aspx"?"class=\"active\"":""%>>Strona główna</a></li>
+                    <li><a href="Biografia" <%= Request.Path=="/Biografia.aspx"?"class=\"active\"":""%>>Biografia</a></li>
+					<li><a href="Galeria" <%= Request.Path=="/Galeria.aspx"?"class=\"active\"":""%>>Galeria zdjęć</a></li>
+					<li><a href="Nagrania_radiowe" <%= Request.Path=="/Nagrania_radiowe.aspx"?"class=\"active\"":""%>>Nagrania radiowe</a></li>
+					<li><a href="O_pulkowniku" <%= Request.Path=="/O_pulkowniku.aspx"?"class=\"active\"":""%>>O pułkowniku</a></li>
+					<li><a href="Fragmenty_tworczosci" <%= Request.Path=="/Fragmenty_tworczosci.aspx" || Request.Path=="Gdzie_twe_sokoly_komendancie"?"class=\"active\"":""%>>Fragmenty twórczości</a></li>
+					<li><a href="Prace_pulkownika" <%= Request.Path=="/Prace_pulkownika.aspx"?"class=\"active\"":""%>>Prace pułkownika</a></li>
+					<br />
+					<li><a href="Publikacje" <%= Request.Path=="/Publikacje.aspx"?"class=\"active\"":""%>>Publikacje</a></li>
+					<li><a href="Pamiec" <%= Request.Path=="/Pamiec.aspx"?"class=\"active\"":""%>>Pamięć</a></li>
+					<li><a href="O_stronie" <%= Request.Path=="/O_stronie.aspx"?"class=\"active\"":""%>>O stronie</a></li>
+					<br />
+					<li><a href="/English" <%= Request.Path=="/English.aspx"?"class=\"active\"":""%>>English</a></li>
+				</ul>
+
+				<div style="text-align: right; padding-right: 15px;">
+				<br/><br/>
+				<iframe src="http://www.facebook.com/plugins/likebox.php?id=147194595302601&amp;width=140&amp;connections=4&amp;stream=false&amp;header=false&amp;height=300" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:300px;" allowTransparency="true"></iframe>
+				</div>
+				
+			</div>																<!-- End Menu -->
+
+			
+<div id="footer"> 
+
+			<div id="blockShadow">													<!-- Start Content Shadow -->
+
+			<div id="blockBody">													<!-- Start Body Block -->
+			
+				<div id="blockHeader">											<!-- Start Header -->
+
+					<div class="headerText">
+					<% switch(new Random().Next(3)){ %>
+					<% case 0: %>
+						<p><i>Chwała tym, którzy wyznaczyli sobie W życiu swym</i></p>
+						<p><i>Termopile i ich bronią. Od obowiązku nie odstępują nigdy</i></p>
+						<p>Konstandinos Kawafis, Termopile</p>
+					<% break;case 1: %>
+					    <p><i>Wojna! [...] Do obiadu spakowałem wszystko - plecak,</i></p>
+					    <p><i>kompas, bieliznę, drobiazgi konieczne w polu</i></p>
+                        <p>Wacław Lipiński, Dziennik</p>
+					<% break;case 2: %>
+					    <p><i>Walczył z carską Rosją w Legionach, walczył z Rosją</i></p>
+					    <p><i>komunistyczną w wojnie 1919-20 r., walczył z Niemcami w 1939 r. - </i></p>
+					    <p><i>a zabili go Polacy. Jeden z dramatów życia mojego pokolenia.</i></p>
+                        <p>W. Jędrzejewicz, Śmierć ppłk. dr. Wacława Lipińskiego</p>
+					<% break; } %>
+					</div>
+
+				</div>															<!-- End Header -->
+
+				<div id="blockContent">												<!-- Start Content Block -->
+
+                    <asp:ContentPlaceHolder id="body" runat="server">
+                    </asp:ContentPlaceHolder>
+					
+				</div>																<!-- End Content Block -->
+				
+				<div id="licenseContent">
+							<!--Creative Commons License-->
+<div>O ile nie jest to stwierdzone inaczej, wszystkie materiały na stronie są dostępne na <a rel="license" href="http://creativecommons.org/licenses/by/2.5/pl/">licencji Creative Commons Uznanie autorstwa 2.5 Polska</a>. Pewne prawa zastrzeżone na rzecz <a href="/O_stronie">autorów</a>.</div> 			
+<a rel="license" href="http://creativecommons.org/licenses/by/2.5/pl/">
+<img alt="Creative Commons License" border="0" src="images/somerights20.pl.png"/></a>
+
+				</div>
+				
+			</div>																	<!-- End Body Block -->
+			
+			</div>																	<!-- End Content Shadow  -->
+			<div id="blockContentFooter">
+			</div>										<!-- End Content Footer -->
+
+	</div>																			<!--Container close-->
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-7528028-6");
+        pageTracker._trackPageview();
+    } catch (err) { }</script>
+
+</body>
+</html>
