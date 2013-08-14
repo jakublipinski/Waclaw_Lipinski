@@ -1,11 +1,10 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<head id="Head2" runat="server">
-    {{ page.extra_head }}
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="" />
-    <title>Wacław Lipiński</title>
+    <title>{%if page.title%}{{page.title}}{%else%}Wacław Lipiński{%endif%}</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <script type="text/javascript" src="js/iepngfix_tilebg.js"></script>
@@ -26,10 +25,12 @@
 			height: 448px;
 			background: transparent url(images/waclaw.png) no-repeat;
 			position: absolute;
-			z-index: <%= Request.Path=="/Default.aspx"?"150":"50" %>; /* Na stronie głównej ma 150, na podstronach 50 */
+			z-index: {% if page.url == "/index.html" %}150{% else %}50{% endif %}; /* Na stronie głównej ma 150, na podstronach 50 */
 			margin-left: 590px;
 			}
     </style>
+
+    {{ page.extra_head }}
     
 </head>
 
@@ -42,20 +43,20 @@
 			<div id="blockMenu">												<!-- Start Menu -->
 			
 				<ul>
-				    {{ page.url }}
-					<li><a href="/" <% if page.url=="/Default.aspx"?"class=\"active\"":""%>>Strona główna</a></li>
-                    <li><a href="Biografia" <%= Request.Path=="/Biografia.aspx"?"class=\"active\"":""%>>Biografia</a></li>
-					<li><a href="Galeria" <%= Request.Path=="/Galeria.aspx"?"class=\"active\"":""%>>Galeria zdjęć</a></li>
-					<li><a href="Nagrania_radiowe" <%= Request.Path=="/Nagrania_radiowe.aspx"?"class=\"active\"":""%>>Nagrania radiowe</a></li>
-					<li><a href="O_pulkowniku" <%= Request.Path=="/O_pulkowniku.aspx"?"class=\"active\"":""%>>O pułkowniku</a></li>
-					<li><a href="Fragmenty_tworczosci" <%= Request.Path=="/Fragmenty_tworczosci.aspx" || Request.Path=="Gdzie_twe_sokoly_komendancie"?"class=\"active\"":""%>>Fragmenty twórczości</a></li>
-					<li><a href="Prace_pulkownika" <%= Request.Path=="/Prace_pulkownika.aspx"?"class=\"active\"":""%>>Prace pułkownika</a></li>
+
+					<li><a href="/" {% if page.url == "/index.html" %}class="active"{% endif %}>Strona główna</a></li>
+                    <li><a href="Biografia.html" {% if page.url == "/Biografia.html" %}class="active"{% endif %}>Biografia</a></li>
+					<li><a href="Galeria.html" {% if page.url == "/Galeria.html" %}class="active"{% endif %}>Galeria zdjęć</a></li>
+					<li><a href="Nagrania_radiowe.html" {% if page.url == "/Nagrania_radiowe.html" %}class="active"{% endif %}>Nagrania radiowe</a></li>
+					<li><a href="O_pulkowniku.html" {% if page.url == "/O_pulkowniku.html" %}class="active"{% endif %}>O pułkowniku</a></li>
+					<li><a href="Fragmenty_tworczosci.html" {% if page.url == "/Fragmenty_tworczosci.html" %}class="active"{% elsif page.url == "/Gdzie_twe_sokoly_komendancie.html" %}class="active"{% endif %}>Fragmenty twórczości</a></li>
+					<li><a href="Prace_pulkownika.html" {% if page.url == "/Prace_pulkownika.html" %}class="active"{% endif %}>Prace pułkownika</a></li>
 					<br />
-					<li><a href="Publikacje" <%= Request.Path=="/Publikacje.aspx"?"class=\"active\"":""%>>Publikacje</a></li>
-					<li><a href="Pamiec" <%= Request.Path=="/Pamiec.aspx"?"class=\"active\"":""%>>Pamięć</a></li>
-					<li><a href="O_stronie" <%= Request.Path=="/O_stronie.aspx"?"class=\"active\"":""%>>O stronie</a></li>
+					<li><a href="Publikacje.html" {% if page.url == "/Publikacje.html" %}class="active"{% endif %}>Publikacje</a></li>
+					<li><a href="Pamiec.html" {% if page.url == "/Pamiec.html" %}class="active"{% endif %}>Pamięć</a></li>
+					<li><a href="O_stronie.html" {% if page.url == "/O_stronie.html" %}class="active"{% endif %}>O stronie</a></li>
 					<br />
-					<li><a href="/English" <%= Request.Path=="/English.aspx"?"class=\"active\"":""%>>English</a></li>
+					<li><a href="/English.html" {% if page.url == "/English.html" %}class="active"{% endif %}>English</a></li>
 				</ul>
 
 				<div style="text-align: right; padding-right: 15px;">
