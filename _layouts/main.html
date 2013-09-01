@@ -76,21 +76,20 @@
 				<div id="blockHeader">											<!-- Start Header -->
 
 					<div class="headerText">
-					<!-- switch(new Random().Next(3)){ %>
-					<% case 0: %-->
+                    {% if page.url == "/index.html" %}
 						<p><i>Chwała tym, którzy wyznaczyli sobie W życiu swym</i></p>
 						<p><i>Termopile i ich bronią. Od obowiązku nie odstępują nigdy</i></p>
 						<p>Konstandinos Kawafis, Termopile</p>
-					<!-- break;case 1: %>
+					{% elsif page.url == "/Biografia.html" %}
 					    <p><i>Wojna! [...] Do obiadu spakowałem wszystko - plecak,</i></p>
 					    <p><i>kompas, bieliznę, drobiazgi konieczne w polu</i></p>
                         <p>Wacław Lipiński, Dziennik</p>
-					<% break;case 2: %>
+					{% else %}
 					    <p><i>Walczył z carską Rosją w Legionach, walczył z Rosją</i></p>
 					    <p><i>komunistyczną w wojnie 1919-20 r., walczył z Niemcami w 1939 r. - </i></p>
 					    <p><i>a zabili go Polacy. Jeden z dramatów życia mojego pokolenia.</i></p>
                         <p>W. Jędrzejewicz, Śmierć ppłk. dr. Wacława Lipińskiego</p>
-					<% break; } -->
+					{% endif %}
 					</div>
 
 				</div>															<!-- End Header -->
